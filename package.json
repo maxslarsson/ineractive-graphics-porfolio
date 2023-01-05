@@ -1,5 +1,6 @@
 {
-  "name": "lazy-loading",
+  "name": "interactive-graphics-portfolio",
+  "homepage": "https://achukka.github.io/todolist",
   "private": true,
   "scripts": {
     "dev": "vite",
