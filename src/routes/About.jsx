@@ -1,6 +1,4 @@
-import * as React from "react";
-
-function AboutPage() {
+export default function About() {
   return (
     <>
       <h1>About</h1>
@@ -8,5 +6,3 @@ function AboutPage() {
     </>
   );
 }
-
-export default AboutPage;
