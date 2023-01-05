@@ -1,6 +1,6 @@
 {
   "name": "interactive-graphics-portfolio",
-  "homepage": "https://achukka.github.io/todolist",
+  "homepage": "https://maxslarsson.github.io/interactive-graphics-portfolio",
   "private": true,
   "scripts": {
     "dev": "vite",
