@@ -24,7 +24,9 @@ const router = createBrowserRouter([
       { path: "projects", element: <Projects /> },
     ],
   },
-]);
+], {
+  basename: "/interactive-graphics-portfolio",
+});
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
