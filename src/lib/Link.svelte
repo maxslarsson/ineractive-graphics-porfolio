@@ -4,6 +4,6 @@
 	import { base } from '$app/paths';
 </script>
 
-<a href="{base}{href}">
+<a href="{base}{href}" {...$$props}>
 	<slot />
 </a>
