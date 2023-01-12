@@ -1,4 +1,6 @@
 <script>
+	import Link from '$lib/Link.svelte';
+
 	export let title;
 	export let description;
 	export let href;
@@ -9,7 +11,7 @@
 	import githubIcon from '$lib/assets/github.svg';
 </script>
 
-<a {href} class="p-4 md:w-1/2 md" style="max-width: 544px">
+<Link {href} class="p-4 md:w-1/2 md" style="max-width: 544px">
 	<div
 		class="h-full overflow-hidden border-2 border-gray-200 rounded-md border-opacity-60 dark:border-gray-700"
 	>
@@ -39,4 +41,4 @@
 			</div>
 		</div>
 	</div>
-</a>
+</Link>

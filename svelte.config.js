@@ -12,8 +12,8 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		paths: {
-			base: dev ? '' : '/interactive-graphics-portfolio',
-		},
+			base: dev ? '' : '/interactive-graphics-portfolio'
+		}
 	}
 };
 

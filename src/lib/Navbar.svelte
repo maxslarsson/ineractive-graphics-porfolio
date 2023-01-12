@@ -1,5 +1,6 @@
 <script>
 	import { page } from '$app/stores';
+	import Link from '$lib/Link.svelte';
 
 	const navItems = [
 		{ href: '/', text: 'Home' },
@@ -15,21 +16,18 @@
 		<ul class="flex justify-center list-reset m-0 w-full md:w-auto">
 			{#each navItems as navItem}
 				<li>
-					<a
+					<!-- TODO: Add highlighting to active link -->
+					<Link
 						href={navItem.href}
-						class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker font-bold text-lg md:text-2xl"
-						class:active={$page.url.pathname === navItem.href}
+						class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker font-bold text-lg md:text-2xl {$page
+							.url.pathname === navItem.href
+							? 'text-indigo-600'
+							: ''}"
 					>
 						{navItem.text}
-					</a>
+					</Link>
 				</li>
 			{/each}
 		</ul>
 	</div>
 </nav>
-
-<style>
-	.active {
-		@apply text-indigo-600;
-	}
-</style>
