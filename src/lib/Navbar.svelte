@@ -1,6 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 	import Link from '$lib/Link.svelte';
+	import {base} from "$app/paths";
 
 	const navItems = [
 		{ href: '/', text: 'Home' },
@@ -19,10 +20,7 @@
 					<!-- TODO: Add highlighting to active link -->
 					<Link
 						href={navItem.href}
-						class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker font-bold text-lg md:text-2xl {$page
-							.url.pathname === navItem.href
-							? 'text-indigo-600'
-							: ''}"
+						class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker font-bold text-lg md:text-2xl {$page.url.pathname === base + navItem.href ? 'text-indigo-600' : ''}"
 					>
 						{navItem.text}
 					</Link>
