@@ -20,19 +20,19 @@
 		>
 	</div>
 	<div class="mx-7 hidden md:block">
-		<div class="my-2 text-gray-600 flex dark:text-blue-100">
+		<div class="my-2 text-gray-600 flex dark:text-blue-100 space-x-1">
 			<img src={mailIcon} alt="Mail icon" />
 			<a href="mailto:max_larsson@dalton.org">max_larsson@dalton.org</a>
 		</div>
-		<div class="my-2 text-gray-600 flex dark:text-blue-100">
+		<div class="my-2 text-gray-600 flex dark:text-blue-100 space-x-1">
 			<img src={mailIcon} alt="Mail icon" />
 			<a href="mailto:maxslarsson@gmail.com">maxslarsson@gmail.com</a>
 		</div>
-		<div class="my-2 text-gray-600 flex dark:text-blue-100">
+		<div class="my-2 text-gray-600 flex dark:text-blue-100 space-x-1">
 			<img src={globeIcon} alt="Globe icon" />
 			<p>New York, NY</p>
 		</div>
-		<div class="my-2 text-gray-600 flex dark:text-blue-200">
+		<div class="my-2 text-gray-600 flex dark:text-blue-200 space-x-1">
 			<img src={githubIcon} alt="GitHub icon" />
 			<a href="https://github.com/maxslarsson">maxslarsson</a>
 		</div>
