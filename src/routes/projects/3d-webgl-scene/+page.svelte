@@ -116,5 +116,6 @@
 	</div>
 	<div class="relative mb-auto">
 		<P5 {sketch} />
+		<p>Make sure to zoom out!</p>
 	</div>
 </div>
