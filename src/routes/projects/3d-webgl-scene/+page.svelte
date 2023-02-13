@@ -100,10 +100,6 @@
 	}
 </script>
 
-<svelte:head>
-	<script src="https://freshfork.github.io/p5.EasyCam/p5.easycam.js"></script>
-</svelte:head>
-
 <div class="max-w-3xl px-4 mx-auto sm:px-6 xl:max-w-5xl xl:px-0">
 	<Link href="/projects" class="flex flex-row gap-2 pt-4">
 		<img src={arrowLeftIcon} />
