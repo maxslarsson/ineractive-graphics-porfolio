@@ -44,6 +44,8 @@
 
 			p5.angleMode(p5.DEGREES);
 
+			p5.orbitControl();
+
 			p5.ambientLight(70, 70, 70);
 			p5.pointLight(130, 130, 130, cam.eyeX, cam.eyeY, cam.eyeZ);
 
