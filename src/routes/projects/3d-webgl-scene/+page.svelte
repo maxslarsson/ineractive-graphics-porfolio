@@ -21,9 +21,9 @@
 
 		p5.setup = () => {
 			p5.createCanvas(400, 400, p5.WEBGL);
-			cam = p5.createEasyCam();
+			cam = p5.createCamera();
+			cam.perspective(p5.PI / 3.0, p5.width / p5.height, 0.1, 4000);
 			document.oncontextmenu = () => false;
-
 			for (let x = -d * 15; x < d * 15; x += d) {
 				for (let y = -d * 15; y < d * 15; y += d) {
 					let r = p5.random(255);
@@ -42,11 +42,10 @@
 		p5.draw = () => {
 			p5.background(0);
 
-			p5.angleMode(DEGREES);
+			p5.angleMode(p5.DEGREES);
 
 			p5.ambientLight(70, 70, 70);
-			let camPosition = cam.getPosition();
-			p5.pointLight(130, 130, 130, camPosition[0], camPosition[1], camPosition[2]);
+			p5.pointLight(130, 130, 130, cam.eyeX, cam.eyeY, cam.eyeZ);
 
 			p5.push();
 			p5.noStroke();
