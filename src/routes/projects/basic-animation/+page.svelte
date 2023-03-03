@@ -1,6 +1,7 @@
 <script>
     import Link from '$lib/Link.svelte';
     import arrowLeftIcon from '$lib/assets/arrow-left.svg';
+    import screenRecording from "./screen_recording.mp4";
 </script>
 
 <div class="max-w-3xl px-4 mx-auto sm:px-6 xl:max-w-5xl xl:px-0">
@@ -17,7 +18,7 @@
     </div>
     <div class="relative mb-auto">
         <video playsinline autoplay muted loop>
-            <source src="screen_recording.mp4" type="video/mp4">
+            <source src={screenRecording} type="video/mp4">
         </video>
         <br>
         <p>Use the arrow keys to adjust the wizard's wand, and press space to shoot!</p>
