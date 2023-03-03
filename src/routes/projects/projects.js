@@ -19,5 +19,12 @@ export const projects = [
 		description: 'A 3D scene made using p5.js and WebGL',
 		github: '',
 		tech: ['p5.js', 'Trigonometry', 'WebGL', '3D']
-	}
+	},
+	{
+		href: '/projects/basic-animation',
+		title: 'BASIC Animation',
+		description: 'An animated 2 dimensional graphics using BASIC in HGR mode for the Apple II',
+		github: '',
+		tech: ['BASIC', 'Apple II', 'Animation']
+	},
 ];
