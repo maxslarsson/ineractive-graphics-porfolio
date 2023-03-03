@@ -27,4 +27,11 @@ export const projects = [
 		github: '',
 		tech: ['BASIC', 'Apple II', 'Animation']
 	},
+	{
+		href: '/projects/class-logo-in-basic',
+		title: 'Class logo in Applesoft BASIC',
+		description: 'An original logo design for my Interactive Graphics class using Applesoft BASIC',
+		github: '',
+		tech: ['BASIC', 'Apple II', 'Animation']
+	},
 ];
