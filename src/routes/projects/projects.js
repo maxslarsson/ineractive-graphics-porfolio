@@ -34,4 +34,11 @@ export const projects = [
 		github: '',
 		tech: ['BASIC', 'Apple II', 'Animation']
 	},
+	{
+		href: '/projects/gameboy-game',
+		title: 'Gameboy game',
+		description: 'A jumpking clone created using GB Studio designed to be both fun and rage-inducing',
+		github: '',
+		tech: ['Gameboy', 'GB Studio', 'Gamedesign']
+	},
 ];
